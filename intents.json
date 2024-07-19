@@ -1,0 +1,112 @@
+{"intents":  [
+  {
+    "tag":  "mistake",
+  "patterns": [""],
+  "responses": ["Apologies,I'm not able to answer that question. If you're interested in the various loan options from Fibank, I can assist you!"]
+  },
+  {
+    "tag":  "greetings",
+  "patterns": ["hello", "hey", "hi", "good day", "greetings"],
+  "responses": ["Hello!", "Hey!", "What can I do for you"]
+  },
+  {
+    "tag":  "name",
+  "patterns": ["what is your name", "what should I call you", "who are you"],
+    "responses": ["I am Chatbot assistant for Fibank"]
+  },
+  {
+    "tag":  "loans",
+  "patterns": ["what type of loans does Fibank offer", "give me Fibank loans", "what are the Fibank loans", "can you tell me about the Fibank loans", "what can you tell me about the Fibank loans"],
+    "responses": ["Fibank offers the following type of loans: Housing/Mortgage Loan, Consumer Loans, Overdrafts and Insurance"]
+  },
+  {
+    "tag":  "housing_and_mortgage",
+  "patterns": ["what are the types of housing and mortgage Fibank offer", "Housing and Mortgage Loans", "housing loan", "mortgage loan", "what can Fibank offer me when it comes to mortgage and housing loans", "What are the housing loans"],
+    "responses": ["Fibank offers the following types of Housing and Mortgage Loans: \"The Right of Choice\" Housing / Mortgage Loan, Mortgage Overdraft, Mortgage loan for Bulgarian citizens with income from abroad, Mortgage loan \"Sustainable Future\""]
+  },
+  {
+    "tag":  "right_of_choice",
+  "patterns": ["what is \"The Right of Choice\"", "what is The Right of Choice", "right of choice"],
+    "responses": ["The \"The Right of Choice\" Housing / Mortgage Loan is a promotional housing loan. It gives the following advantages:\n - Promotional interest rate of 2.74%\n - Unlimited amount of the loan and financing up to 90% of the market value of the property\n - Special offer when refinancing a mortgage loan from another bank: Fibank, depending on the individual credit rating of the borrower, will pay the due expenses for notary and state fees related to establishing a mortgage, in the amount of up to BGN 1,200.\n - Bonus: When approved for a mortgage loan, you can also take advantage of a pre-approved debit card overdraft in the amount of up to 3 of your monthly salaries, at 0% annual interest for the first year.\n - The promotional conditions are valid for loan applications submitted until 30.11.2024."]
+  },
+  {
+    "tag":  "mortgage_overdraft",
+  "patterns": ["what is mortgage overdraft", "mortgage overdraft"],
+    "responses": ["Mortgage overdraft from Fibank offers:\n - promotional interest rate of 2.74%;\n - convenience - you will have the entire amount of the loan on your account and you can use the funds without a mandatory monthly payment;\n - economic efficiency - you owe interest only on the amount of the used portion of the loan;\n - flexible term - the overdraft period is a minimum of 1 year, a maximum of 5 years from the date of conclusion of the contract. After this period, the loan will be repaid in equal monthly installments, according to a repayment schedule."]
+  },
+  {
+    "tag":  "bul_abroad_mortgage",
+  "patterns": ["what is included in mortgage loan for Bulgarian citizens with income from abroad", "mortgage loan for Bulgarian citizens with income from abroad"],
+    "responses": ["Mortgage loan for Bulgarian citizens with income from abroad have the following advantages:\n - Unlimited amount of the loan and financing up to 70% of the market value of the property;\n - Interest rate of 4.11%;\n - Special offer when refinancing a mortgage loan from another bank: Fibank, depending on the individual credit rating of the borrower, will pay the due expenses for notary and state fees related to establishing a mortgage in the amount of up to BGN 1,200.\n - Pre-approved credit card."]
+  },
+  {
+    "tag":  "sustainable_future",
+  "patterns": ["what is sustainable future", "sustainable future"],
+    "responses": ["Mortgage loan “Sustainable Future” have the following advantages:\n - Interest rate of 2.91%\n - Unlimited loan amount and financing up to 90% of the market value of the property;\n - Bonus: Upon approval of a mortgage loan, you can also take advantage of a pre-approved debit card overdraft in the amount of up to 3 of your salaries, at 0% APR for the first year.\n - Pre-approved credit card."]
+  },
+  {
+    "tag":  "consumer",
+  "patterns": ["what are the consumer loans", "explain consumer loan", "what is in the consumer loan"],
+    "responses": ["Consumer loan has multiple types of loans: Super consumer Loan, Standard consumer loan, \"Green energy for households\", Green Vehicle Consumer Loan, \"Career Start\" consumer loan, \"Cash +\" Loan, Students Loan, Consumer loan \"Confidence\" with \"Unwanted unemployment\" insurance"]
+  },
+  {
+    "tag":  "super_consumer",
+  "patterns": ["super loan", "explain super consumer loan", "what is in the super consumer loan"],
+    "responses": ["Super consumer loan has the following criteria:\n - Term: up to 10 years\n - Advantages: preferential interest rate\n - Purpose: Current needs\n - Maximum amount: up to 80 000 BGN"]
+  },
+  {
+    "tag":  "standard_consumer",
+  "patterns": ["standard consumer loan", "explain standard consumer loan", "what is in the standard consumer loan"],
+    "responses": ["Standard consumer loan has the following criteria:\n - Term: up to 10 years\n - Advantages: No fee when applying online\n - Purpose: Current needs\n - Maximum amount: up to 80 000 BGN"]
+  },
+  {
+    "tag":  "green_energy",
+  "patterns": ["green energy for households", "explain green energy for households consumer loan", "what is in the green energy for households consumer loan"],
+    "responses": ["“Green energy for households” consumer loan has the following criteria:\n - Term: up to 10 years\n - Advantages: Grace period on principal and interest for the first 3 months\n - Purpose: For purchase of installation for own production of energy\n - Maximum amount: up to 25 000 BGN"]
+  },
+  {
+    "tag":  "green_vehicle",
+  "patterns": ["green vehicle consumer loan", "explain green vehicle consumer loan", "what is in the green vehicle consumer loan"],
+    "responses": ["Green vehicle consumer loan has the following criteria:\n - Term: up to 10 years\n - Advantages: interest rate of 3.99%\n - Purpose: buying an electric car\n - Maximum amount: up to 100 000 BGN"]
+  },
+  {
+    "tag":  "career_start",
+  "patterns": ["career start consumer loan", "explain career start consumer loan", "what is in the career start consumer loan"],
+    "responses": ["Career start consumer loan has the following criteria:\n - Suitable for: individuals aged 21 to 30 years old\n - Opportunities: Grace period for the first 3 months\n - Advantages: no work experience required\n - Maximum amount: up to 5 000 BGN"]
+  },
+  {
+    "tag":  "cash_loan",
+  "patterns": ["cash consumer loan", "explain cash consumer loan", "what is in the cash consumer loan"],
+    "responses": ["\"Cash +\" loan has the following criteria:\n - Term: not limited\n - Advantages: no need to proof income\n - Purpose: loan for current needs secured by financial funds\n - Maximum amount: not limited"]
+  },
+  {
+    "tag":  "student_loan",
+  "patterns": ["student consumer loan", "explain student consumer loan", "what is in the student consumer loan"],
+    "responses": ["Students loan has the following criteria:\n - Term: up to 10 years\n - Advantages: Grace period\n - Purpose: Student loan pursuant to the law on student and doctoral lending\n - Maximum amount: All tuition fees due or the minimum salary multiplied by number of months for the respective semester"]
+  },
+  {
+    "tag":  "confidence_loan",
+  "patterns": ["consumer loan confidence with unwanted unemployment insurance", "explain consumer loan confidence with unwanted unemployment insurance", "what is in the consumer loan confidence with unwanted unemployment insurance"],
+    "responses": ["Consumer loan \"Confidence\" with \"Unwanted unemployment\" insurance has the following criteria:\n - Term: up to 10 years\n - Advantages: 100% online, without visiting a bank office\n - Opportunities: Interest rate: from 4.49%"]
+  },
+  {
+    "tag":  "overdraft",
+  "patterns": ["overdraft loans", "types of overdraft loans", "Fibank overdraft loans", "what is overdraft"],
+    "responses": ["Fibank offers the following types of overdraft: Overdraft easy loan and Overdraft comfort"]
+  },
+  {
+    "tag":  "overdraft_easy",
+  "patterns": ["overdraft easy loan", "explain overdraft easy", "what is overdraft easy loan"],
+    "responses": ["Overdraft easy: It is a loan that does not bind you with a repayment schedule.\n\nWhen you want to have extra funds, you can take advantage of Easy Loan:\n - quick approval;\n - at any time;\n - without being bound by a repayment schedule."]
+  },
+  {
+    "tag":  "overdraft_comfort",
+  "patterns": ["overdraft comfort loan", "explain overdraft comfort", "what is overdraft comfort loan"],
+    "responses": ["\"Overdraft Comfort\" offers you:\n - Possibility of advance application when opening a current account at the Bank's office;\n - Simplified procedure, without the need to visit the office again to sign documents when the limit is granted;\n - Automatic granting of limit upon fulfillment of the product conditions (see Terms and Conditions and documents)."]
+  },
+  {
+    "tag":  "insurance",
+  "patterns": ["insurance loan", "FiHealth \"Peace of Mind\"", "What is included in the Insurance loan?"],
+    "responses": ["Fibank offers the following type of insurance: FiHealth \"Peace of Mind\" Insurance! FiHealth Peace of Mind Insurance is a voluntary insurance that you, as a borrower, can make when applying for a loan with Fibank, as well as if you already have a loan granted by Fibank. The insurance will cover your obligations to the bank in case of any unforeseen and unpleasant events in your life that prevent you from fulfilling your obligations."]
+  }
+]}
