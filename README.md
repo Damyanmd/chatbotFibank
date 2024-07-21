@@ -1,6 +1,6 @@
 <div align="center">
-  <h1>Chatbot Fibank for loans</h1>
- <p>Chatbot for Fibank loans (interview exercise)</p>
+  <h1>Chatbot for Fibank loans</h1>
+ <p>Chatbot for Fibank loans (interview task)</p>
 </div>
 
 This excercise is part of interview process for Fibank GenAI prompt engineer. 
