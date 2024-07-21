@@ -2,15 +2,12 @@ import random
 import json
 import pickle
 import numpy as np
-
+import language
 import nltk
-from nltk.stem import WordNetLemmatizer
 
 from keras._tf_keras.keras.models import load_model
 
-lemmatizer = WordNetLemmatizer()
-
-intents = json.loads(open('intents.json').read())
+intents = json.loads(open('intents.json', encoding='utf-8').read())
 
 words = pickle.load(open('words.pkl', 'rb'))
 classes = pickle.load(open('classes.pkl', 'rb'))
@@ -18,8 +15,11 @@ model = load_model('chatbot_model.keras')
 
 def clean_up_sentence(sentence):
     sentence_words = nltk.word_tokenize(sentence)
-    sentence_words = [lemmatizer.lemmatize(word) for word in sentence_words]
-    return sentence_words
+    cleaned_words = []
+    for word in sentence_words:
+        lang = language.detect_language(word)
+        cleaned_words.append(language.stem_word(word.lower(), lang))
+    return cleaned_words
 
 def bag_of_words(sentence):
     sentence_words = clean_up_sentence(sentence)
@@ -51,10 +51,15 @@ def get_response(intents_list, intents_json):
             break
     return result
 
-print("Bot is running!")
+print("Bot is running! Say Hello!")
 
 while True:
-    message = input("")
-    ints = predict_class(message)
-    res = get_response(ints, intents)
-    print(res)
+    try:
+        message = input("")
+        ints = predict_class(message)
+        res = get_response(ints, intents)
+        print(res)
+    except KeyboardInterrupt:
+        print("Conversation is over")
+    except Exception as e:
+        print(f"Error: {str(e)}")

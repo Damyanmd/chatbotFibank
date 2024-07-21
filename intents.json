@@ -7,7 +7,7 @@
   {
     "tag":  "greetings",
   "patterns": ["hello", "hey", "hi", "good day", "greetings"],
-  "responses": ["Hello!", "Hey!", "What can I do for you"]
+  "responses": ["Hello!", "Hey!", "What can I do for you?"]
   },
   {
     "tag":  "name",
@@ -21,13 +21,13 @@
   },
   {
     "tag":  "housing_and_mortgage",
-  "patterns": ["what are the types of housing and mortgage Fibank offer", "Housing and Mortgage Loans", "housing loan", "mortgage loan", "what can Fibank offer me when it comes to mortgage and housing loans", "What are the housing loans"],
+  "patterns": ["what are the types of housing and mortgage Fibank offer", "Housing and Mortgage Loans", "housing loan", "mortgage loan", "what can Fibank offer me when it comes to mortgage and housing loans", "what are the housing loans"],
     "responses": ["Fibank offers the following types of Housing and Mortgage Loans: \"The Right of Choice\" Housing / Mortgage Loan, Mortgage Overdraft, Mortgage loan for Bulgarian citizens with income from abroad, Mortgage loan \"Sustainable Future\""]
   },
   {
     "tag":  "right_of_choice",
   "patterns": ["what is \"The Right of Choice\"", "what is The Right of Choice", "right of choice"],
-    "responses": ["The \"The Right of Choice\" Housing / Mortgage Loan is a promotional housing loan. It gives the following advantages:\n - Promotional interest rate of 2.74%\n - Unlimited amount of the loan and financing up to 90% of the market value of the property\n - Special offer when refinancing a mortgage loan from another bank: Fibank, depending on the individual credit rating of the borrower, will pay the due expenses for notary and state fees related to establishing a mortgage, in the amount of up to BGN 1,200.\n - Bonus: When approved for a mortgage loan, you can also take advantage of a pre-approved debit card overdraft in the amount of up to 3 of your monthly salaries, at 0% annual interest for the first year.\n - The promotional conditions are valid for loan applications submitted until 30.11.2024."]
+    "responses": ["\"The Right of Choice\" Housing / Mortgage Loan is a promotional housing loan. It gives the following advantages:\n - Promotional interest rate of 2.74%\n - Unlimited amount of the loan and financing up to 90% of the market value of the property\n - Special offer when refinancing a mortgage loan from another bank: Fibank, depending on the individual credit rating of the borrower, will pay the due expenses for notary and state fees related to establishing a mortgage, in the amount of up to BGN 1,200.\n - Bonus: When approved for a mortgage loan, you can also take advantage of a pre-approved debit card overdraft in the amount of up to 3 of your monthly salaries, at 0% annual interest for the first year."]
   },
   {
     "tag":  "mortgage_overdraft",
@@ -42,7 +42,7 @@
   {
     "tag":  "sustainable_future",
   "patterns": ["what is sustainable future", "sustainable future"],
-    "responses": ["Mortgage loan “Sustainable Future” have the following advantages:\n - Interest rate of 2.91%\n - Unlimited loan amount and financing up to 90% of the market value of the property;\n - Bonus: Upon approval of a mortgage loan, you can also take advantage of a pre-approved debit card overdraft in the amount of up to 3 of your salaries, at 0% APR for the first year.\n - Pre-approved credit card."]
+    "responses": ["Mortgage loan \"Sustainable Future\" have the following advantages:\n - Interest rate of 2.91%\n - Unlimited loan amount and financing up to 90% of the market value of the property;\n - Bonus: Upon approval of a mortgage loan, you can also take advantage of a pre-approved debit card overdraft in the amount of up to 3 of your salaries, at 0% APR for the first year.\n - Pre-approved credit card."]
   },
   {
     "tag":  "consumer",
@@ -62,7 +62,7 @@
   {
     "tag":  "green_energy",
   "patterns": ["green energy for households", "explain green energy for households consumer loan", "what is in the green energy for households consumer loan"],
-    "responses": ["“Green energy for households” consumer loan has the following criteria:\n - Term: up to 10 years\n - Advantages: Grace period on principal and interest for the first 3 months\n - Purpose: For purchase of installation for own production of energy\n - Maximum amount: up to 25 000 BGN"]
+    "responses": ["\"Green energy for households\" consumer loan has the following criteria:\n - Term: up to 10 years\n - Advantages: Grace period on principal and interest for the first 3 months\n - Purpose: For purchase of installation for own production of energy\n - Maximum amount: up to 25 000 BGN"]
   },
   {
     "tag":  "green_vehicle",
@@ -97,16 +97,121 @@
   {
     "tag":  "overdraft_easy",
   "patterns": ["overdraft easy loan", "explain overdraft easy", "what is overdraft easy loan"],
-    "responses": ["Overdraft easy: It is a loan that does not bind you with a repayment schedule.\n\nWhen you want to have extra funds, you can take advantage of Easy Loan:\n - quick approval;\n - at any time;\n - without being bound by a repayment schedule."]
+    "responses": ["Overdraft easy: It is a loan that does not bind you with a repayment schedule.\n - When you want to have extra funds, you can take advantage of Easy Loan:\n - quick approval;\n - at any time;\n - without being bound by a repayment schedule."]
   },
   {
     "tag":  "overdraft_comfort",
   "patterns": ["overdraft comfort loan", "explain overdraft comfort", "what is overdraft comfort loan"],
-    "responses": ["\"Overdraft Comfort\" offers you:\n - Possibility of advance application when opening a current account at the Bank's office;\n - Simplified procedure, without the need to visit the office again to sign documents when the limit is granted;\n - Automatic granting of limit upon fulfillment of the product conditions (see Terms and Conditions and documents)."]
+    "responses": ["\"Overdraft Comfort\" offers you:\n - Possibility of advance application when opening a current account at the Bank's office;\n - Simplified procedure, without the need to visit the office again to sign documents when the limit is granted;\n - Automatic granting of limit upon fulfillment of the product conditions"]
   },
   {
     "tag":  "insurance",
-  "patterns": ["insurance loan", "FiHealth \"Peace of Mind\"", "What is included in the Insurance loan?"],
+  "patterns": ["insurance loan", "FiHealth \"Peace of Mind\"", "what is included in the Insurance loan", "FiHealth"],
     "responses": ["Fibank offers the following type of insurance: FiHealth \"Peace of Mind\" Insurance! FiHealth Peace of Mind Insurance is a voluntary insurance that you, as a borrower, can make when applying for a loan with Fibank, as well as if you already have a loan granted by Fibank. The insurance will cover your obligations to the bank in case of any unforeseen and unpleasant events in your life that prevent you from fulfilling your obligations."]
+  },
+  {
+    "tag":  "greetingsDE",
+  "patterns": ["hallo", "guten tag", "grüße"],
+  "responses": ["Hallo!", "Was kann ich für Dich tun?"]
+  },
+  {
+    "tag":  "nameDE",
+  "patterns": ["wie heißt du", "wie soll ich dich nennen", "wer bist du"],
+    "responses": ["Ich bin Chatbot-Assistent für Fibank"]
+  },
+  {
+    "tag":  "loansDE",
+  "patterns": ["welche Art von Krediten bietet die Fibank an?", "Gib mir Fibank-Kredite", "Was sind die Fibank-Darlehen?", "Können Sie mir etwas über die Fibank-Darlehen erzählen?", "Was können Sie mir über die Fibank-Kredite sagen?"],
+    "responses": ["Fibank bietet die folgenden Arten von Darlehen an: Wohnungsbau-/Hypothekendarlehen, Verbraucherdarlehen, Überziehungskredite und Versicherungen"]
+  },
+  {
+    "tag":  "housing_and_mortgageDE",
+  "patterns": ["Welche Arten von Wohnraum und Hypotheken bietet Fibank an?", "Wohnungs- und Hypothekendarlehen", "Wohnungsbaudarlehen", "Hypothekendarlehen", "Was kann mir Fibank bieten, wenn es um Hypotheken- und Wohnungsbaudarlehen geht", "Was sind die Wohnungsbaudarlehen"],
+    "responses": ["Die Fibank bietet die folgenden Arten von Wohnungs- und Hypothekendarlehen an: Wohnungs-/Hypothekendarlehen \"Das Recht der Wahl\", Hypothekenüberziehung, Hypothekendarlehen für bulgarische Staatsbürger mit Einkünften aus dem Ausland, Hypothekendarlehen \"Nachhaltige Zukunft\"“"]
+  },
+  {
+    "tag":  "right_of_choiceDE",
+  "patterns": ["was ist \"das Recht der Wahl\"", "was ist das Recht der Wahl", "Wahlrecht"],
+    "responses": ["\"Das Recht der Wahl\" das Wohnungs-/Hypothekendarlehen ist ein förderungswürdiges Wohnungsbaudarlehen. Es bietet die folgenden Vorteile:\n - Aktionszinssatz von 2.74%\n - Unbegrenzte Höhe des Darlehens und Finanzierung bis zu 90 % des Marktwertes der Immobilie\n - Sonderangebot bei der Refinanzierung eines Hypothekendarlehens von einer anderen Bank: Fibank übernimmt je nach individueller Bonität des Kreditnehmers die fälligen Kosten für Notar- und Staatsgebühren im Zusammenhang mit der Aufnahme einer Hypothek in Höhe von bis zu BGN 1,200.\n - Bonus: Wenn Ihnen ein Hypothekendarlehen genehmigt wird, können Sie auch einen vorab genehmigten Überziehungskredit mit Debitkarte in Höhe von bis zu drei Monatsgehältern in Anspruch nehmen, bei 0 % Jahreszins im ersten Jahr."]
+  },
+  {
+    "tag":  "mortgage_overdraftDE",
+  "patterns": ["Was ist eine Hypothekenüberziehung", "Hypothekenüberziehung"],
+    "responses": ["Hypothekenüberziehungsangebote von Fibank:\n - Aktionszins von 2,74 %;\n - Bequemlichkeit - Sie haben den gesamten Kreditbetrag auf Ihrem Konto und können das Geld ohne obligatorische monatliche Zahlung nutzen;\n - Wirtschaftlichkeit - Sie schulden Zinsen nur für den Betrag des in Anspruch genommenen Teils des Darlehens;\n - flexible Laufzeit - Die Überziehungsdauer beträgt mindestens 1 Jahr, höchstens 5 Jahre ab Vertragsschluss. Nach Ablauf dieser Frist wird das Darlehen gemäß einem Tilgungsplan in gleichen monatlichen Raten zurückgezahlt."]
+  },
+  {
+    "tag":  "bul_abroad_mortgageDE",
+  "patterns": ["Was ist im Hypothekendarlehen für bulgarische Staatsbürger mit Einkünften aus dem Ausland enthalten?", "Hypothekendarlehen für bulgarische Staatsbürger mit Einkünften aus dem Ausland"],
+    "responses": ["Ein Hypothekendarlehen für bulgarische Staatsbürger mit Einkünften aus dem Ausland bietet folgende Vorteile:\n - Unbegrenzte Höhe des Darlehens und Finanzierung bis zu 70 % des Marktwertes der Immobilie;\n - Zinssatz von 4,11%;\n - Sonderangebot bei der Refinanzierung eines Hypothekendarlehens bei einer anderen Bank: Fibank übernimmt je nach individueller Bonität des Kreditnehmers die fälligen Kosten für Notar- und Staatsgebühren im Zusammenhang mit der Aufnahme einer Hypothek in Höhe von bis zu 1.200 BGN.\n - Vorab genehmigte Kreditkarte."]
+  },
+  {
+    "tag":  "sustainable_futureDE",
+  "patterns": ["Was ist nachhaltige Zukunft", "nachhaltige Zukunft"],
+    "responses": ["Hypothekendarlehen \"Nachhaltige Zukunft\" haben die folgenden Vorteile:\n - Zinssatz von 2,91 %\n - Unbegrenzte Kreditsumme und Finanzierung bis zu 90 % des Verkehrswertes der Immobilie;\n - Bonus: Nach der Genehmigung eines Hypothekendarlehens können Sie auch von einem vorab genehmigten Überziehungskredit mit Debitkarte in Höhe von bis zu 3 Ihres Gehalts zu einem effektiven Jahreszins von 0 % im ersten Jahr profitieren.\n - Vorab genehmigte Kreditkarte."]
+  },
+  {
+    "tag":  "consumerDE",
+  "patterns": ["Was sind die Verbraucherkredite", "Verbraucherkredit erklären", "Was ist im Verbraucherkredit enthalten"],
+    "responses": ["Bei Verbraucherkrediten gibt es mehrere Arten von Krediten: Super-Verbraucherkredit, Standard-Verbraucherkredit, \"Grüne Energie für Haushalte\", Verbraucherkredit für umweltfreundliche Fahrzeuge, \"Karrierestart\" Verbraucherkredit, \"Kasse +\" Darlehen, Studentendarlehen, Verbraucherkredit \"Vertrauen\" mit \"Unerwünschte Arbeitslosigkeit\" Versicherung"]
+  },
+  {
+    "tag":  "super_consumerDE",
+  "patterns": ["Superkredit", "Super-Konsumentenkredit erklären", "Was ist im Super-Konsumentenkredit enthalten"],
+    "responses": ["Für einen Super-Konsumentenkredit gelten die folgenden Kriterien:\n - Begriff: bis zu 10 Jahre\n - Vorteile: Vorzugszinssatz\n - Zweck: Aktuelle Bedürfnisse\n - Höchstbetrag: bis zu 80 000 BGN"]
+  },
+  {
+    "tag":  "standard_consumerDE",
+  "patterns": ["Standard-Verbraucherkredit", "Erklären Sie den Standard-Verbraucherkredit", "Was ist im Standard-Verbraucherkredit enthalten"],
+    "responses": ["Für ein Standard-Verbraucherdarlehen gelten die folgenden Kriterien:\n - Begriff: bis zu 10 years\n - Vorteile: Keine Gebühr bei Online-Bewerbung\n - Zweck: Aktuelle Bedürfnisse\n - Höchstbetrag: bis zu 80 000 BGN"]
+  },
+  {
+    "tag":  "green_energyDE",
+  "patterns": ["Grüne Energie für Haushalte", "Erklären Sie grüne Energie für Privathaushalte, Verbraucherkredit", "Was steckt im Verbraucherkredit Grüne Energie für Haushalte"],
+    "responses": ["\"Grüne Energie für Haushalte\" Für einen Verbraucherkredit gelten folgende Kriterien:\n - Begriff: bis zu 10 years\n - Vorteile: Zahlungsfrist für Kapital und Zinsen für die ersten 3 Monate\n - Zweck: Für den Kauf einer Anlage zur eigenen Energieerzeugung\n - Höchstbetrag: bis zu 25 000 BGN"]
+  },
+  {
+    "tag":  "green_vehicleDE",
+  "patterns": ["Verbraucherkredit für umweltfreundliche Fahrzeuge", "Erläutern Sie den Verbraucherkredit für umweltfreundliche Fahrzeuge", "Was ist im Verbraucherkredit für grüne Fahrzeuge enthalten"],
+    "responses": ["Für einen Verbraucherkredit für umweltfreundliche Fahrzeuge gelten die folgenden Kriterien:\n - Begriff: bis zu 10 years\n - Vorteile: Zinssatz von 3,99 %\n - Zweck: Kauf eines Elektroautos\n - Höchstbetrag: bis zu 100 000 BGN"]
+  },
+  {
+    "tag":  "career_startDE",
+  "patterns": ["Berufseinstieg Konsumentenkredit", "Berufseinstieg Verbraucherkredit erklären", "Was ist im Berufseinstiegskredit enthalten"],
+    "responses": ["Ein Verbraucherkredit für den Berufseinstieg hat folgende Kriterien:\n - Passend für: Personen im Alter von 21 bis 30 Jahren\n - Gelegenheiten: Schonfrist für die ersten 3 Monate\n - Vorteile: keine Berufserfahrung erforderlich\n - Höchstbetrag: bis zu 5 000 BGN"]
+  },
+  {
+    "tag":  "cash_loanDE",
+  "patterns": ["Barkredit für Verbraucher", "Erklären Sie den Bargeldkredit für Verbraucher", "Was ist in dem Bargeld-Konsumentenkredit enthalten"],
+    "responses": ["\"Kasse +\" für ein Darlehen gelten folgende Kriterien:\n - Begriff: nicht limitiert\n - Vorteile: Es ist kein Einkommensnachweis erforderlich\n - Zweck: Darlehen für den laufenden Bedarf, abgesichert durch Finanzmittel\n - Höchstbetrag: nicht limitiert"]
+  },
+  {
+    "tag":  "student_loanDE",
+  "patterns": ["Verbraucherdarlehen für Studenten", "Erklären Sie den Konsumentenkredit für Studenten", "Was ist im Studienkredit enthalten"],
+    "responses": ["Für ein Studentendarlehen gelten die folgenden Kriterien:\n - Begriff: bis zu 10 years\n - Vorteile: Zahlungsfrist\n - Zweck: Studiendarlehen gemäß Studien- und Doktorandenkreditgesetz\n - Höchstbetrag: Alle fälligen Studiengebühren oder das Mindestgehalt multipliziert mit der Anzahl der Monate für das jeweilige Semester"]
+  },
+  {
+    "tag":  "confidence_loanDE",
+  "patterns": ["Verbraucherkreditvertrauen mit unerwünschter Arbeitslosenversicherung", "Erklären Sie das Vertrauen der Verbraucher in Kredite mit einer unerwünschten Arbeitslosenversicherung", "Was steckt im Verbraucherkreditvertrauen bei ungewollter Arbeitslosenversicherung"],
+    "responses": ["Verbraucherkredit \"Vertrauen\" mit \"Unerwünschte Arbeitslosigkeit\" für die Versicherung gelten folgende Kriterien:\n - Begriff: bis zu 10 years\n - Vorteile: 100 % online, ohne Besuch einer Bankfiliale\n - Gelegenheiten: Zinssatz: ab 4,49 %"]
+  },
+  {
+    "tag":  "overdraftDE",
+  "patterns": ["Überziehungskredite", "Arten von Überziehungskrediten", "Überziehungskredite der Fibank", "Was ist ein Überziehungskredit"],
+    "responses": ["Die Fibank bietet folgende Arten von Überziehungskrediten an: Überziehungskredit Easy und Überziehungskredit Comfort"]
+  },
+  {
+    "tag":  "overdraft_easyDE",
+  "patterns": ["Überziehungskredit, einfacher Kredit", "Überziehung einfach erklären", "Was ist ein einfacher Überziehungskredit"],
+    "responses": ["Überziehungskredit einfach: Es handelt sich um einen Kredit, der Sie nicht an einen Rückzahlungsplan bindet.\n - Wenn Sie über zusätzliche Mittel verfügen möchten, können Sie Easy Loan nutzen:\n - schnelle Zustimmung;\n - jederzeit;\n - ohne an einen Tilgungsplan gebunden zu sein."]
+  },
+  {
+    "tag":  "overdraft_comfortDE",
+  "patterns": ["Überziehungskomfort", "Überziehungskomfort erklären", "Was ist ein Überziehungskomfort"],
+    "responses": ["\"Überziehungskomfort\" bietet Ihnen an:\n - Möglichkeit der Voranmeldung bei Eröffnung eines Girokontos in der Geschäftsstelle der Bank;\n - Vereinfachtes Verfahren, ohne dass bei Gewährung des Limits ein erneuter Besuch im Büro zur Unterzeichnung der Dokumente erforderlich ist;\n - Automatische Limitgewährung bei Erfüllung der Produktbedingungen"]
+  },
+  {
+    "tag":  "insuranceDE",
+  "patterns": ["Versicherungsdarlehen", "FiHealth \"Seelenfrieden\"", "Was ist im Versicherungsdarlehen enthalten"],
+    "responses": ["Die Fibank bietet die folgende Versicherungsart an: FiHealth \"Seelenfrieden\" Versicherung! Die FiHealth Seelenfrieden Versicherung ist eine freiwillige Versicherung, die Sie als Kreditnehmer sowohl bei der Beantragung eines Kredits bei der Fibank abschließen können, als auch wenn Sie bereits über einen Kredit der Fibank verfügen. Die Versicherung deckt Ihre Verpflichtungen gegenüber der Bank ab, falls in Ihrem Leben unvorhergesehene und unangenehme Ereignisse eintreten, die Sie an der Erfüllung Ihrer Verpflichtungen hindern."]
   }
 ]}
