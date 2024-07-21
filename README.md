@@ -8,7 +8,7 @@ This excercise is part of interview process for Fibank GenAI prompt engineer.
 The Chatbot can answer questions in english and german for the loans program available in the Fibank webpage: https://www.fibank.bg/bg/chastni-lica/krediti
 
 ## How it works
- First step is to download all the libraries requirments.txt.
+ First step is to download all the libraries in requirments.txt.
  
  Second step is to run the training.py file to train the model.
  
