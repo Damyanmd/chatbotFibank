@@ -13,3 +13,6 @@ The Chatbot can answer questions in english and german for the loans program ava
  Second step is to run the training.py file to train the model.
  
  The last step is to run chatbot.py and you should be able to interact with the chatbot.
+
+## Languages
+ Currently it can understand German and English.
